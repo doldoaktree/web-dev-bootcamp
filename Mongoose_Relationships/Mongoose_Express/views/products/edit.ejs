@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit</title>
+  </head>
+  <body>
+    <h1>Edit Product</h1>
+    <body>
+      <h1><%= productId.name %></h1>
+      <ul>
+        <li><h3>Price: <%=`$${productId.price}`%></h3></li>
+        <li><h4>Category: <%= productId.category %></h4></li>
+        <li>id: <%= productId._id %></li>
+      </ul>
+
+      <form action="/products/<%= productId._id %>?_method=PUT" method="POST">
+          <label for="name">Product Name</label>
+          <input type="text" name="name" id="name" placeholder="name" />
+          <label for="price">Price (per Unit)</label>
+          <input
+            type="number"
+            name="price"
+            id="price"
+            min="0"
+            value="0"
+            placeholder="0"
+          />
+          <label for="category">Select Category</label>
+          <select name="category" id="category">
+            <%for(let product of products) { %> 
+              <% let chosen = product.category %>
+            <option value="<%= chosen %>"><%= product.category %></option>
+            <% } %>
+          </select>
+          <button>Submit</button>
+        </form>
+
+
+
+      </form>
+    
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!-- <form action="/products/<%= product._id %> " method="POST">
+      <label for="name">Product Name</label>
+      <input type="text" name="name" id="name" placeholder="carrots" />
+      <label for="price">Price (per Unit)</label>
+      <input
+        type="number"
+        name="price"
+        id="price"
+        min="0"
+        value="0"
+        placeholder="0"
+      />
+      <label for="category">Select Category</label>
+      <select name="category" id="category">
+        <%for(let product of products) { %> 
+          <% let chosen = product.category %>
+        <option value="<%= chosen %>"><%= product.category %></option>
+        <% } %>
+      </select>
+      <button>Submit</button>
+    </form> -->

@@ -1,0 +1,51 @@
+div {
+    background-color: lightcoral;
+    height: 100px;
+    width: 100px;
+    border: 2px;
+    margin: 10px;
+    border-color: navy;
+    border-style: solid;
+    display: inline-block;
+}
+
+#static #middle {
+    background-color: rgb(128, 240, 128);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-color: navy;
+    border-style: solid;
+}
+
+#relative #middle {
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+    margin: 10;
+    border-color: springgreen;
+    border-style: solid;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    
+
+}
+
+
+#absolute #middle {
+    background-color:yellow;
+    height: 100px;
+    width: 100px;
+    margin: 10;
+    border-color: springgreen;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+    top: 0;
+      
+   
+    
+}
+    
+

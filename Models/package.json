@@ -1,0 +1,14 @@
+{
+  "name": "models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user.js",
+  "scripts": {
+    "test": "nodemon user.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.2.7"
+  }
+}

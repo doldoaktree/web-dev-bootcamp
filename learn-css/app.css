@@ -1,0 +1,4 @@
+
+
+#board :nth-child(odd) {background-color: red;}
+#board :nth-child(even) {background-color:black;}

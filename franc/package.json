@@ -1,0 +1,16 @@
+{
+  "name": "franc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "author": "Jen Ang",
+  "license": "ISC",
+  "dependencies": {
+    "franc": "^6.0.0",
+    "langs": "^2.0.0"
+  }
+}
