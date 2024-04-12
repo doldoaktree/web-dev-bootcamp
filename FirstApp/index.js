@@ -8,7 +8,7 @@ const app = express();
 //     res.send('<h1>Good morning, JennY! from Mo</h1>')
 // })
 app.get('/', (req,res)=>{
-    res.send('This is me home page homie yo!')
+    res.send('Welcome! This is my home page. You may enter!')
 
 })
 
