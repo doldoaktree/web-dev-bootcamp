@@ -14,9 +14,9 @@ app.get("/", (req, res) => {
   res.render("home",  {title: 'Home'});
 });
 
-app.get("/cameltoe", (req, res) => {
+app.get("/camel", (req, res) => {
   const camel = ["ben", "chibo", "barty", "toby"];
-  res.render("cameltoe", {title: 'CAMELTOE', camelParty: camel});
+  res.render("camel", {title: 'CAMEL', camelParty: camel});
 });
 
 app.get("/r/:subreddit", (req, res) => {
